@@ -137,15 +137,15 @@ const About = () => {
             className='h2'>
             Great <span className='text-accent'>Stories</span> inspire great <span className='text-accent'>Designs.</span>
           </motion.h2>
-          <motion.p
+           <motion.p
             variants={fadeIn('right', 0.4)}
             initial='hidden'
             animate='show'
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-            Web developer and designer who's spent the last 3 months freelancing
-            with agencies, startups, and companies some even tried to hire me full-time!.I build
-            clean, responsive websites and design user friendly interfaces with tools like React
+            Web developer and designer who’s spent the last 3 months freelancing
+            with agencies, startups, and companies—some even tried to hire me full-time. I build
+            clean, responsive websites and design user-friendly interfaces with tools like React
             and Figma.
           </motion.p>
           {/* counter */}
@@ -230,7 +230,7 @@ const About = () => {
                   {/* title */}
                   <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                   <div className='hidden md:flex'>-</div>
-                  <div>{item.stage}</div>
+                  {item.stage && <div>{item.stage}</div>}
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((IconComponent, iconIndex) => {
