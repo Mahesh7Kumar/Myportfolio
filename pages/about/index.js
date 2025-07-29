@@ -120,7 +120,7 @@ const About = () => {
   initial='hidden'
   animate='show'
   exit='hidden'
-  className='hidden xl:flex absolute bottom-0 left-0 2xl:-left-[450px]'
+  className='hidden xl:flex absolute bottom-0 -left-[300px]'
 >
   <Avatar />
 </motion.div>
