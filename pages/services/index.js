@@ -31,9 +31,7 @@ const Services = () => {
               animate='show'
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-              I offer a range of services to help you achieve your goals, from
-              web development to digital marketing. Let's work together to
-              create something amazing!
+               {"I offer a range of services to help you achieve your goals, from web development to digital marketing. Let's work together to create something amazing!"}
             </motion.p>
           </div>
 
