@@ -1,8 +1,8 @@
 // components
 import TestimonialSlider from "../../components/TestimonialSlider";
 // framer motion
-import { motion } from 'framer-motion'
-import { fadeIn } from '../../variants.js'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../variants.js';
 
 const Testimonials = () => {
   return (
@@ -11,18 +11,19 @@ const Testimonials = () => {
         {/* title */}
         <motion.h2
           variants={fadeIn('down', 0.2)}
-          initial='hidden'
-          animate='show'
-          exit='hidden'
-          className="h2 mb-8 xl:md-8">
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="h2 mb-8 xl:mb-8"
+        >
           What I Can Do for Your <span className="text-accent">Business.</span>
         </motion.h2>
         {/* slider */}
         <motion.div
           variants={fadeIn('up', 0.4)}
-          initial='hidden'
-          animate='show'
-          exit='hidden'
+          initial="hidden"
+          animate="show"
+          exit="hidden"
         >
           <TestimonialSlider />
         </motion.div>
