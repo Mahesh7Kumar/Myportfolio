@@ -115,15 +115,15 @@ const About = () => {
   return (
     <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
       <Circles />
-       {/* <Avatar /> */}
-      <motion.div
-        variants={fadeIn('right', 0.3)}
-        initial='hidden'
-        animate='show'
-        exit='hidden'
-        className='hidden xl:flex absolute bottom-0 -left-[230px]'>
-        <Avatar />
-      </motion.div>
+      //  {/* <Avatar /> */}
+      // <motion.div
+      //   variants={fadeIn('right', 0.3)}
+      //   initial='hidden'
+      //   animate='show'
+      //   exit='hidden'
+      //   className='hidden xl:flex absolute bottom-0 -left-[230px]'>
+      //   <Avatar />
+      // </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/* text */}
         <div className='flex-1 flex flex-col justify-center '>
